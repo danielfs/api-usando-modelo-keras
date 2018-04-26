@@ -1,3 +1,8 @@
+"""
+Para executar a API, rode o seguinte comando em um shell:
+FLASK_APP=api.py flask run
+"""
+
 from flask import Flask
 from keras.models import model_from_json
 import numpy as np
